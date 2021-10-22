@@ -42,19 +42,19 @@ proguard/
 captures/
 
 # IntelliJ
-*.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
-.idea/jarRepositories.xml
+**/*.iml
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/gradle.xml
+**/.idea/assetWizardSettings.xml
+**/.idea/dictionaries
+**/.idea/libraries
+**/.idea/jarRepositories.xml
 # Android Studio 3 in .gitignore file.
-.idea/caches
-.idea/modules.xml
+**/.idea/caches
+**/.idea/modules.xml
 # Comment next line if keeping position of elements in Navigation Editor is relevant for you
-.idea/navEditor.xml
+**/.idea/navEditor.xml
 
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.
@@ -62,8 +62,8 @@ captures/
 #*.keystore
 
 # External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
-.cxx/
+**/.externalNativeBuild
+**/.cxx/
 
 # Google Services (e.g. APIs or Firebase)
 # google-services.json
@@ -135,10 +135,10 @@ hs_err_pid*
 # Generated files
 
 # Gradle files
-.gradle
+**/.gradle
 
 # Signing files
-.signing/
+**/.signing/
 
 # Local configuration file (sdk path, etc)
 
@@ -147,18 +147,18 @@ hs_err_pid*
 # Log Files
 
 # Android Studio
-/*/build/
-/*/local.properties
-/*/out
-/*/*/build
-/*/*/production
-*.ipr
-*~
-*.swp
+**/*/build/
+**/*/local.properties
+**/*/out
+**/*/*/build
+**/*/*/production
+**/*.ipr
+**/*~
+**/*.swp
 
 # Keystore files
-*.jks
-*.keystore
+**/*.jks
+**/*.keystore
 
 # Google Services (e.g. APIs or Firebase)
 # google-services.json
@@ -168,44 +168,44 @@ hs_err_pid*
 # External native build folder generated in Android Studio 2.2 and later
 
 # NDK
-obj/
+**/obj/
 
 # IntelliJ IDEA
-*.iws
-/out/
+**/*.iws
+**/out/
 
 # User-specific configurations
-.idea/caches/
-.idea/libraries/
-.idea/shelf/
-.idea/.name
-.idea/compiler.xml
-.idea/copyright/profiles_settings.xml
-.idea/encodings.xml
-.idea/misc.xml
-.idea/scopes/scope_settings.xml
-.idea/vcs.xml
-.idea/jsLibraryMappings.xml
-.idea/datasources.xml
-.idea/dataSources.ids
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
+**/.idea/caches/
+**/.idea/libraries/
+**/.idea/shelf/
+**/.idea/.name
+**/.idea/compiler.xml
+**/.idea/copyright/profiles_settings.xml
+**/.idea/encodings.xml
+**/.idea/misc.xml
+**/.idea/scopes/scope_settings.xml
+**/.idea/vcs.xml
+**/.idea/jsLibraryMappings.xml
+**/.idea/datasources.xml
+**/.idea/dataSources.ids
+**/.idea/sqlDataSources.xml
+**/.idea/dynamic.xml
+**/.idea/uiDesigner.xml
 
 # OS-specific files
 .DS_Store
 .DS_Store?
 ._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+**/.Spotlight-V100
+**/.Trashes
+**/ehthumbs.db
+**/Thumbs.db
 
 # Legacy Eclipse project files
-.classpath
-.project
-.cproject
-.settings/
+**/.classpath
+**/.project
+**/.cproject
+**/.settings/
 
 # Mobile Tools for Java (J2ME)
 
@@ -216,19 +216,19 @@ Thumbs.db
 ## Plugin-specific files:
 
 # mpeltonen/sbt-idea plugin
-.idea_modules/
+**/.idea_modules/
 
 # JIRA plugin
-atlassian-ide-plugin.xml
+**/atlassian-ide-plugin.xml
 
 # Mongo Explorer plugin
-.idea/mongoSettings.xml
+**/.idea/mongoSettings.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
+**/com_crashlytics_export_strings.xml
+**/crashlytics.properties
+**/crashlytics-build.properties
+**/fabric.properties
 
 ### AndroidStudio Patch ###
 
