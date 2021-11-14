@@ -1,0 +1,37 @@
+@startuml
+
+class ListFeedActivity {
+  - String: feedURL
+  +startFeedDownload()
+  #startFavoritesFeedsActivity()
+}
+
+class FavoritesFeedsActivity {
+  - String: feedId
+  +showFeed()
+}
+
+class FeedViewActivity {
+  - String: feedURL
+  +startFeedDownload()
+  #startFavoritesFeedsActivity()
+}
+
+class DownloadService {
+  - String: feedURL
+  +downloadFeed()
+}
+
+database DATABASE {
+ 
+}
+
+ListFeedActivity -|> DownloadService
+ListFeedActivity -|> DATABASE
+ListFeedActivity -|> FeedViewActivity
+FeedViewActivity -|> DATABASE
+FeedViewActivity -|> DownloadService
+FavoritesFeedsActivity -|> FeedViewActivity
+FavoritesFeedsActivity -|> DATABASE
+
+@enduml 
